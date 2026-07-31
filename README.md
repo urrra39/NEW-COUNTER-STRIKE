@@ -81,8 +81,18 @@ On the main menu you can change:
 |---|---|
 | `index.html` | Full game (open this) |
 | `NEW_COUNTER_STRIKE.html` | Same full game, alternate filename |
+| `DUST2_FULL_GAME.html` | Same full game, desktop filename |
+| `NEW_COUNTER_STRIKE.zip` | Full package (HTML + README) |
+| `DUST2_FULL_GAME.zip` | Same full package, alternate zip name |
 | `README.md` | This guide |
 | `LICENSE` | MIT |
+
+### Download the ZIP
+
+1. Open the repo on GitHub.
+2. Click `NEW_COUNTER_STRIKE.zip` (or `DUST2_FULL_GAME.zip`).
+3. Click **Download**.
+4. Extract the zip, then open `index.html`.
 
 The whole game is inside the HTML file (graphics, map, audio logic, UI). Internet is needed the first time so **Three.js** can load from CDN.
 
